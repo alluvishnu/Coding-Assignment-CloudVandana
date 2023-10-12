@@ -1,0 +1,54 @@
+body
+{
+    margin:0px;
+
+}
+header{
+    background:linear-gradient(45deg,yellow,red,green,blue);
+    padding: 8px;
+}
+header>h1{
+    
+    padding:20px ;
+}
+nav{
+    background:linear-gradient(45deg,yellow,black,grey);
+    text-align: center;
+    padding: 15px;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+aside{
+    background:linear-gradient(45deg,blue,green,grey);
+    width: 200px;
+    height: 450px;
+    text-align: center;
+    float: left;
+}
+aside>a{
+    display: block;
+    margin-bottom: 50px;
+    color: white;
+    text-decoration: none;
+
+}
+section{
+    margin-left: 200px;
+    background-color:lightblue;
+}
+section>article{
+    padding: 3px;
+
+}
+footer{
+    background:linear-gradient(45deg,yellow,red,green,blue);
+    text-align: center;
+    padding: 10px;
+
+}
+footer>small{
+
+}
